@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45353938026DAE38077B85FA /* Pods_soyfri_soyfriUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3849298ED38999FB56286BB /* Pods_soyfri_soyfriUITests.framework */; };
+		4A8D9B1129B6A1940015227D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B1029B6A1940015227D /* AppDelegate.swift */; };
+		4A8D9B1329B6A1940015227D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B1229B6A1940015227D /* SceneDelegate.swift */; };
+		4A8D9B1529B6A1940015227D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B1429B6A1940015227D /* ViewController.swift */; };
+		4A8D9B1829B6A1940015227D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8D9B1629B6A1940015227D /* Main.storyboard */; };
+		4A8D9B1A29B6A1960015227D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8D9B1929B6A1960015227D /* Assets.xcassets */; };
+		4A8D9B1D29B6A1960015227D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8D9B1B29B6A1960015227D /* LaunchScreen.storyboard */; };
+		4A8D9B2829B6A1970015227D /* soyfriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B2729B6A1970015227D /* soyfriTests.swift */; };
+		4A8D9B3229B6A1970015227D /* soyfriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B3129B6A1970015227D /* soyfriUITests.swift */; };
+		4A8D9B3429B6A1970015227D /* soyfriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B3329B6A1970015227D /* soyfriUITestsLaunchTests.swift */; };
+		4A8D9B4429B6A5870015227D /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4329B6A5870015227D /* Meal.swift */; };
+		4A8D9B4929B6A7A10015227D /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4729B6A7A10015227D /* MealCell.swift */; };
+		4A8D9B4A29B6A7A10015227D /* MealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4829B6A7A10015227D /* MealCell.xib */; };
+		4A8D9B4E29B6A9CE0015227D /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4D29B6A9CE0015227D /* ApiClient.swift */; };
+		4A8D9B4F29B6A9CE0015227D /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4D29B6A9CE0015227D /* ApiClient.swift */; };
+		4A8D9B5029B6A9CE0015227D /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4D29B6A9CE0015227D /* ApiClient.swift */; };
+		4A8D9B5229B6AB240015227D /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B5129B6AB240015227D /* MealViewModel.swift */; };
+		4A8D9B5329B6AB240015227D /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B5129B6AB240015227D /* MealViewModel.swift */; };
+		4A8D9B5429B6AB240015227D /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B5129B6AB240015227D /* MealViewModel.swift */; };
+		4A8D9B5729B6AC870015227D /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B5629B6AC870015227D /* WebServices.swift */; };
+		4A8D9B5829B6AC870015227D /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B5629B6AC870015227D /* WebServices.swift */; };
+		4A8D9B5929B6AC870015227D /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B5629B6AC870015227D /* WebServices.swift */; };
+		4A8D9B5C29B6BC470015227D /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 4A8D9B5B29B6BC470015227D /* OrderedCollections */; };
+		4A8D9B5D29B6CB9F0015227D /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4329B6A5870015227D /* Meal.swift */; };
+		4A8D9B5E29B6CB9F0015227D /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4329B6A5870015227D /* Meal.swift */; };
+		4A8D9B5F29B6CBA50015227D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8D9B1629B6A1940015227D /* Main.storyboard */; };
+		4A8D9B6029B6CBA50015227D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8D9B1629B6A1940015227D /* Main.storyboard */; };
+		4A8D9B6129B6CBA80015227D /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4729B6A7A10015227D /* MealCell.swift */; };
+		4A8D9B6229B6CBA80015227D /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4729B6A7A10015227D /* MealCell.swift */; };
+		4A8D9B6329B6CBB30015227D /* MealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4829B6A7A10015227D /* MealCell.xib */; };
+		4A8D9B6429B6CBB30015227D /* MealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8D9B4829B6A7A10015227D /* MealCell.xib */; };
+		4A8D9B6529B6CBB70015227D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B1429B6A1940015227D /* ViewController.swift */; };
+		4A8D9B6629B6CBB70015227D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D9B1429B6A1940015227D /* ViewController.swift */; };
+		4A8D9B6A29B6CD430015227D /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 4A8D9B6929B6CD430015227D /* OrderedCollections */; };
+		4A8D9B6C29B6CD510015227D /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 4A8D9B6B29B6CD510015227D /* OrderedCollections */; };
+		86046430043715CCBD502C2B /* Pods_soyfriTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66613CBE1BAFE96B116CA6A3 /* Pods_soyfriTests.framework */; };
+		FC27FECB192E179A0FFFB0A6 /* Pods_soyfri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804D6BC2DD20921CAC44201A /* Pods_soyfri.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A8D9B2429B6A1970015227D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A8D9B0529B6A1940015227D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8D9B0C29B6A1940015227D;
+			remoteInfo = soyfri;
+		};
+		4A8D9B2E29B6A1970015227D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A8D9B0529B6A1940015227D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8D9B0C29B6A1940015227D;
+			remoteInfo = soyfri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45617A3D57BCE93AB653A3EB /* Pods-soyfri-soyfriUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soyfri-soyfriUITests.release.xcconfig"; path = "Target Support Files/Pods-soyfri-soyfriUITests/Pods-soyfri-soyfriUITests.release.xcconfig"; sourceTree = "<group>"; };
+		459B4D1A4288AB1E00F5CC05 /* Pods-soyfri-soyfriUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soyfri-soyfriUITests.debug.xcconfig"; path = "Target Support Files/Pods-soyfri-soyfriUITests/Pods-soyfri-soyfriUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A8D9B0D29B6A1940015227D /* soyfri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soyfri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8D9B1029B6A1940015227D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A8D9B1229B6A1940015227D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A8D9B1429B6A1940015227D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A8D9B1729B6A1940015227D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A8D9B1929B6A1960015227D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A8D9B1C29B6A1960015227D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A8D9B1E29B6A1960015227D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A8D9B2329B6A1970015227D /* soyfriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soyfriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8D9B2729B6A1970015227D /* soyfriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soyfriTests.swift; sourceTree = "<group>"; };
+		4A8D9B2D29B6A1970015227D /* soyfriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soyfriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8D9B3129B6A1970015227D /* soyfriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soyfriUITests.swift; sourceTree = "<group>"; };
+		4A8D9B3329B6A1970015227D /* soyfriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soyfriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A8D9B4329B6A5870015227D /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		4A8D9B4729B6A7A10015227D /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
+		4A8D9B4829B6A7A10015227D /* MealCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealCell.xib; sourceTree = "<group>"; };
+		4A8D9B4D29B6A9CE0015227D /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		4A8D9B5129B6AB240015227D /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		4A8D9B5629B6AC870015227D /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		66613CBE1BAFE96B116CA6A3 /* Pods_soyfriTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soyfriTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		804D6BC2DD20921CAC44201A /* Pods_soyfri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soyfri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20D571B62B5471F9E29998D /* Pods-soyfriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soyfriTests.release.xcconfig"; path = "Target Support Files/Pods-soyfriTests/Pods-soyfriTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3849298ED38999FB56286BB /* Pods_soyfri_soyfriUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soyfri_soyfriUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6D0FDE6BAA2C9F2335A412 /* Pods-soyfriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soyfriTests.debug.xcconfig"; path = "Target Support Files/Pods-soyfriTests/Pods-soyfriTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E49762363953CFDE9E793863 /* Pods-soyfri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soyfri.debug.xcconfig"; path = "Target Support Files/Pods-soyfri/Pods-soyfri.debug.xcconfig"; sourceTree = "<group>"; };
+		E76E476A14C644253A9E4285 /* Pods-soyfri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soyfri.release.xcconfig"; path = "Target Support Files/Pods-soyfri/Pods-soyfri.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A8D9B0A29B6A1940015227D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D9B5C29B6BC470015227D /* OrderedCollections in Frameworks */,
+				FC27FECB192E179A0FFFB0A6 /* Pods_soyfri.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8D9B2029B6A1970015227D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D9B6A29B6CD430015227D /* OrderedCollections in Frameworks */,
+				86046430043715CCBD502C2B /* Pods_soyfriTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8D9B2A29B6A1970015227D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D9B6C29B6CD510015227D /* OrderedCollections in Frameworks */,
+				45353938026DAE38077B85FA /* Pods_soyfri_soyfriUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		218014D8A60593EC5D16122F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				804D6BC2DD20921CAC44201A /* Pods_soyfri.framework */,
+				C3849298ED38999FB56286BB /* Pods_soyfri_soyfriUITests.framework */,
+				66613CBE1BAFE96B116CA6A3 /* Pods_soyfriTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FE555431999EF0D59A54E65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E49762363953CFDE9E793863 /* Pods-soyfri.debug.xcconfig */,
+				E76E476A14C644253A9E4285 /* Pods-soyfri.release.xcconfig */,
+				459B4D1A4288AB1E00F5CC05 /* Pods-soyfri-soyfriUITests.debug.xcconfig */,
+				45617A3D57BCE93AB653A3EB /* Pods-soyfri-soyfriUITests.release.xcconfig */,
+				DE6D0FDE6BAA2C9F2335A412 /* Pods-soyfriTests.debug.xcconfig */,
+				C20D571B62B5471F9E29998D /* Pods-soyfriTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A8D9B0429B6A1940015227D = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B0F29B6A1940015227D /* soyfri */,
+				4A8D9B2629B6A1970015227D /* soyfriTests */,
+				4A8D9B3029B6A1970015227D /* soyfriUITests */,
+				4A8D9B0E29B6A1940015227D /* Products */,
+				2FE555431999EF0D59A54E65 /* Pods */,
+				218014D8A60593EC5D16122F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A8D9B0E29B6A1940015227D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B0D29B6A1940015227D /* soyfri.app */,
+				4A8D9B2329B6A1970015227D /* soyfriTests.xctest */,
+				4A8D9B2D29B6A1970015227D /* soyfriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A8D9B0F29B6A1940015227D /* soyfri */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B4B29B6A9AF0015227D /* Core */,
+				4A8D9B4029B6A5140015227D /* Features */,
+				4A8D9B1029B6A1940015227D /* AppDelegate.swift */,
+				4A8D9B1229B6A1940015227D /* SceneDelegate.swift */,
+				4A8D9B1929B6A1960015227D /* Assets.xcassets */,
+				4A8D9B1B29B6A1960015227D /* LaunchScreen.storyboard */,
+				4A8D9B1E29B6A1960015227D /* Info.plist */,
+			);
+			path = soyfri;
+			sourceTree = "<group>";
+		};
+		4A8D9B2629B6A1970015227D /* soyfriTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B2729B6A1970015227D /* soyfriTests.swift */,
+			);
+			path = soyfriTests;
+			sourceTree = "<group>";
+		};
+		4A8D9B3029B6A1970015227D /* soyfriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B3129B6A1970015227D /* soyfriUITests.swift */,
+				4A8D9B3329B6A1970015227D /* soyfriUITestsLaunchTests.swift */,
+			);
+			path = soyfriUITests;
+			sourceTree = "<group>";
+		};
+		4A8D9B4029B6A5140015227D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B4229B6A5610015227D /* Domain */,
+				4A8D9B4129B6A54E0015227D /* Presentation */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4A8D9B4129B6A54E0015227D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B4529B6A74E0015227D /* MealsScreen */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4A8D9B4229B6A5610015227D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B4329B6A5870015227D /* Meal.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		4A8D9B4529B6A74E0015227D /* MealsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B4629B6A7740015227D /* View */,
+				4A8D9B1429B6A1940015227D /* ViewController.swift */,
+				4A8D9B5129B6AB240015227D /* MealViewModel.swift */,
+			);
+			path = MealsScreen;
+			sourceTree = "<group>";
+		};
+		4A8D9B4629B6A7740015227D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B1629B6A1940015227D /* Main.storyboard */,
+				4A8D9B4729B6A7A10015227D /* MealCell.swift */,
+				4A8D9B4829B6A7A10015227D /* MealCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A8D9B4B29B6A9AF0015227D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B5529B6AC700015227D /* WebServices */,
+				4A8D9B4C29B6A9BA0015227D /* Http */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4A8D9B4C29B6A9BA0015227D /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B4D29B6A9CE0015227D /* ApiClient.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		4A8D9B5529B6AC700015227D /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				4A8D9B5629B6AC870015227D /* WebServices.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A8D9B0C29B6A1940015227D /* soyfri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8D9B3729B6A1970015227D /* Build configuration list for PBXNativeTarget "soyfri" */;
+			buildPhases = (
+				517F3816727AC832DEC63530 /* [CP] Check Pods Manifest.lock */,
+				4A8D9B0929B6A1940015227D /* Sources */,
+				4A8D9B0A29B6A1940015227D /* Frameworks */,
+				4A8D9B0B29B6A1940015227D /* Resources */,
+				CC4909D3EB61818DB1E36FD4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soyfri;
+			packageProductDependencies = (
+				4A8D9B5B29B6BC470015227D /* OrderedCollections */,
+			);
+			productName = soyfri;
+			productReference = 4A8D9B0D29B6A1940015227D /* soyfri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A8D9B2229B6A1970015227D /* soyfriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8D9B3A29B6A1970015227D /* Build configuration list for PBXNativeTarget "soyfriTests" */;
+			buildPhases = (
+				928457DC58626997017C262C /* [CP] Check Pods Manifest.lock */,
+				4A8D9B1F29B6A1970015227D /* Sources */,
+				4A8D9B2029B6A1970015227D /* Frameworks */,
+				4A8D9B2129B6A1970015227D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A8D9B2529B6A1970015227D /* PBXTargetDependency */,
+			);
+			name = soyfriTests;
+			packageProductDependencies = (
+				4A8D9B6929B6CD430015227D /* OrderedCollections */,
+			);
+			productName = soyfriTests;
+			productReference = 4A8D9B2329B6A1970015227D /* soyfriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A8D9B2C29B6A1970015227D /* soyfriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8D9B3D29B6A1970015227D /* Build configuration list for PBXNativeTarget "soyfriUITests" */;
+			buildPhases = (
+				BBC7F75A579E10DC999108F0 /* [CP] Check Pods Manifest.lock */,
+				4A8D9B2929B6A1970015227D /* Sources */,
+				4A8D9B2A29B6A1970015227D /* Frameworks */,
+				4A8D9B2B29B6A1970015227D /* Resources */,
+				AEBC7B45331735545E125FBD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A8D9B2F29B6A1970015227D /* PBXTargetDependency */,
+			);
+			name = soyfriUITests;
+			packageProductDependencies = (
+				4A8D9B6B29B6CD510015227D /* OrderedCollections */,
+			);
+			productName = soyfriUITests;
+			productReference = 4A8D9B2D29B6A1970015227D /* soyfriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A8D9B0529B6A1940015227D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4A8D9B0C29B6A1940015227D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4A8D9B2229B6A1970015227D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4A8D9B0C29B6A1940015227D;
+					};
+					4A8D9B2C29B6A1970015227D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4A8D9B0C29B6A1940015227D;
+					};
+				};
+			};
+			buildConfigurationList = 4A8D9B0829B6A1940015227D /* Build configuration list for PBXProject "soyfri" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A8D9B0429B6A1940015227D;
+			packageReferences = (
+				4A8D9B5A29B6BC470015227D /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = 4A8D9B0E29B6A1940015227D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A8D9B0C29B6A1940015227D /* soyfri */,
+				4A8D9B2229B6A1970015227D /* soyfriTests */,
+				4A8D9B2C29B6A1970015227D /* soyfriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A8D9B0B29B6A1940015227D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D9B4A29B6A7A10015227D /* MealCell.xib in Resources */,
+				4A8D9B1D29B6A1960015227D /* LaunchScreen.storyboard in Resources */,
+				4A8D9B1A29B6A1960015227D /* Assets.xcassets in Resources */,
+				4A8D9B1829B6A1940015227D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8D9B2129B6A1970015227D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D9B6329B6CBB30015227D /* MealCell.xib in Resources */,
+				4A8D9B5F29B6CBA50015227D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8D9B2B29B6A1970015227D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D9B6429B6CBB30015227D /* MealCell.xib in Resources */,
+				4A8D9B6029B6CBA50015227D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		517F3816727AC832DEC63530 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-soyfri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		928457DC58626997017C262C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-soyfriTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBC7B45331735545E125FBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soyfri-soyfriUITests/Pods-soyfri-soyfriUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soyfri-soyfriUITests/Pods-soyfri-soyfriUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soyfri-soyfriUITests/Pods-soyfri-soyfriUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC7F75A579E10DC999108F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-soyfri-soyfriUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4909D3EB61818DB1E36FD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soyfri/Pods-soyfri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soyfri/Pods-soyfri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soyfri/Pods-soyfri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A8D9B0929B6A1940015227D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D9B4929B6A7A10015227D /* MealCell.swift in Sources */,
+				4A8D9B5229B6AB240015227D /* MealViewModel.swift in Sources */,
+				4A8D9B4429B6A5870015227D /* Meal.swift in Sources */,
+				4A8D9B1529B6A1940015227D /* ViewController.swift in Sources */,
+				4A8D9B1129B6A1940015227D /* AppDelegate.swift in Sources */,
+				4A8D9B1329B6A1940015227D /* SceneDelegate.swift in Sources */,
+				4A8D9B5729B6AC870015227D /* WebServices.swift in Sources */,
+				4A8D9B4E29B6A9CE0015227D /* ApiClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8D9B1F29B6A1970015227D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D9B6129B6CBA80015227D /* MealCell.swift in Sources */,
+				4A8D9B5E29B6CB9F0015227D /* Meal.swift in Sources */,
+				4A8D9B2829B6A1970015227D /* soyfriTests.swift in Sources */,
+				4A8D9B4F29B6A9CE0015227D /* ApiClient.swift in Sources */,
+				4A8D9B6529B6CBB70015227D /* ViewController.swift in Sources */,
+				4A8D9B5829B6AC870015227D /* WebServices.swift in Sources */,
+				4A8D9B5329B6AB240015227D /* MealViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8D9B2929B6A1970015227D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D9B3429B6A1970015227D /* soyfriUITestsLaunchTests.swift in Sources */,
+				4A8D9B5929B6AC870015227D /* WebServices.swift in Sources */,
+				4A8D9B5429B6AB240015227D /* MealViewModel.swift in Sources */,
+				4A8D9B6229B6CBA80015227D /* MealCell.swift in Sources */,
+				4A8D9B3229B6A1970015227D /* soyfriUITests.swift in Sources */,
+				4A8D9B5D29B6CB9F0015227D /* Meal.swift in Sources */,
+				4A8D9B6629B6CBB70015227D /* ViewController.swift in Sources */,
+				4A8D9B5029B6A9CE0015227D /* ApiClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A8D9B2529B6A1970015227D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A8D9B0C29B6A1940015227D /* soyfri */;
+			targetProxy = 4A8D9B2429B6A1970015227D /* PBXContainerItemProxy */;
+		};
+		4A8D9B2F29B6A1970015227D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A8D9B0C29B6A1940015227D /* soyfri */;
+			targetProxy = 4A8D9B2E29B6A1970015227D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A8D9B1629B6A1940015227D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A8D9B1729B6A1940015227D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A8D9B1B29B6A1960015227D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A8D9B1C29B6A1960015227D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A8D9B3529B6A1970015227D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A8D9B3629B6A1970015227D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A8D9B3829B6A1970015227D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E49762363953CFDE9E793863 /* Pods-soyfri.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6KT36K335;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = soyfri/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.soyfri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A8D9B3929B6A1970015227D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76E476A14C644253A9E4285 /* Pods-soyfri.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6KT36K335;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = soyfri/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.soyfri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A8D9B3B29B6A1970015227D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6D0FDE6BAA2C9F2335A412 /* Pods-soyfriTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6KT36K335;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.soyfriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soyfri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soyfri";
+			};
+			name = Debug;
+		};
+		4A8D9B3C29B6A1970015227D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20D571B62B5471F9E29998D /* Pods-soyfriTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6KT36K335;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.soyfriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soyfri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soyfri";
+			};
+			name = Release;
+		};
+		4A8D9B3E29B6A1970015227D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459B4D1A4288AB1E00F5CC05 /* Pods-soyfri-soyfriUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6KT36K335;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.soyfriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = soyfri;
+			};
+			name = Debug;
+		};
+		4A8D9B3F29B6A1970015227D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45617A3D57BCE93AB653A3EB /* Pods-soyfri-soyfriUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6KT36K335;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.soyfriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = soyfri;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A8D9B0829B6A1940015227D /* Build configuration list for PBXProject "soyfri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8D9B3529B6A1970015227D /* Debug */,
+				4A8D9B3629B6A1970015227D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8D9B3729B6A1970015227D /* Build configuration list for PBXNativeTarget "soyfri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8D9B3829B6A1970015227D /* Debug */,
+				4A8D9B3929B6A1970015227D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8D9B3A29B6A1970015227D /* Build configuration list for PBXNativeTarget "soyfriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8D9B3B29B6A1970015227D /* Debug */,
+				4A8D9B3C29B6A1970015227D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8D9B3D29B6A1970015227D /* Build configuration list for PBXNativeTarget "soyfriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8D9B3E29B6A1970015227D /* Debug */,
+				4A8D9B3F29B6A1970015227D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A8D9B5A29B6BC470015227D /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A8D9B5B29B6BC470015227D /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A8D9B5A29B6BC470015227D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		4A8D9B6929B6CD430015227D /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A8D9B5A29B6BC470015227D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		4A8D9B6B29B6CD510015227D /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A8D9B5A29B6BC470015227D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4A8D9B0529B6A1940015227D /* Project object */;
+}
